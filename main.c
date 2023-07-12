@@ -178,6 +178,7 @@ void update(FILE *fptr){
     fclose(fptr);
 }
 
+// Function to list the details of the students.
 void list(){
     printf("\n\t    LIST");
     for(int i=0; i<size; i++){
